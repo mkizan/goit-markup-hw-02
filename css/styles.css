@@ -207,7 +207,7 @@ body {
 
 /* PORTFOLIO PAGE */
 
-/* section CATEGORY */
+/* section PORTFOLIO */
 .category-lists {
     list-style: none;
 }
@@ -233,7 +233,7 @@ body {
     color: var(--hero-text-color);
 }
 
-/* section PORTFOLIO */
+
 .portfolio-lists {
     list-style: none;
 }
