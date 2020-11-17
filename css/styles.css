@@ -17,7 +17,7 @@ body {
     background-color: var();
 }
 
-/* Studio page */
+/* STUDIO PAGE */
 
 /* section HEADER */
 .logo {
@@ -204,3 +204,56 @@ body {
     color: var(--hero-text-color);
 }
 
+
+/* PORTFOLIO PAGE */
+
+/* section CATEGORY */
+.category-lists {
+    list-style: none;
+}
+
+.category-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+    background-color: var(--background-category-color);
+    color: var(--primary-text-color);
+}
+
+.category-link:focus, .category-link:hover {
+    background-color: var(--accent-text-color);
+    color: var(--hero-text-color);
+}
+
+/* section PORTFOLIO */
+.portfolio-lists {
+    list-style: none;
+}
+
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+}
+
+.portfolio-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+}
